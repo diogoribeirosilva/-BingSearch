@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #007bff;
+    --error-color: #ff0000;
+    --disabled-color: #ccc;
+  }
+  
+  .search-container {
+    max-width: 600px; 
+    margin: 20px auto 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .search-container input {
+    width: calc(100% - 16px);
+    padding: 12px; 
+    margin-bottom: 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-container button {
+    width: 100%;
+    padding: 14px; 
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+  }
+  
+  .search-container button:disabled {
+    background-color: var(--disabled-color);
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: var(--error-color);
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3; 
+  }
+  
+  
